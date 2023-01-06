@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -70,6 +69,7 @@ public class CommentService {
         // 댓글 엔티티를 DTO로 변환 및 반환
         return CommentDto.createCommentDto(updated);
     }
+
     @Transactional
     public CommentDto delete(Long id) {
         // 댓글 조회(및 예외 발생)
@@ -83,4 +83,6 @@ public class CommentService {
         return CommentDto.createCommentDto(target);
 
     }
+
+
 }
