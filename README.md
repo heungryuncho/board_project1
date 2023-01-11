@@ -18,8 +18,11 @@
   - Spring Data JPA
   - postgresql
 
-mustache
-JS
+
+#### `Back-end`
+  - mustache
+  - JavaScript
+
 
 
 
