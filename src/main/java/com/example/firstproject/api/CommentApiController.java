@@ -10,8 +10,9 @@ import java.util.List;
 
 @RestController
 public class CommentApiController {
-    @Autowired
-    private CommentService commentService;
+
+    @Autowired private CommentService commentService;
+
     // 댓글 목록 조회
     @GetMapping("/api/articles/{articleId}/comments")
     public ResponseEntity<List<CommentDto>> comments(@PathVariable Long articleId) {
