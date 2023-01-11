@@ -19,8 +19,8 @@
   - PostgreSQL
 
 
-#### `Back-end`
-  - mustache
+#### `Front-end`
+  - Mustache
   - JavaScript
 
 </br>
