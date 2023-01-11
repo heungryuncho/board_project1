@@ -16,7 +16,7 @@
   - Spring Boot 2.6.8
   - Gradle
   - Spring Data JPA
-  - postgresql
+  - PostgreSQL
 
 
 #### `Back-end`
