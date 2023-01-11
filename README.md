@@ -23,16 +23,6 @@
   - mustache
   - JavaScript
 
-
-
-
-</br>
-
-
-
-</div>
-</details>
-    
 </br>
 
 ##  느낀점
